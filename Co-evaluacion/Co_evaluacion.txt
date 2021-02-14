@@ -1,0 +1,14 @@
+· Código legible (html y css)
+El código HTML es legible y se puede entender con facilidad. El CSS no es de interés dado que es el de Bootstrap. Sin embargo, el SASS es muy facil de entender.
+
+· Secciones lógicas claramente diferenciables
+Se puede entender por medio de los rows, pero pudistes también usar el tag section y article para definir mejor la semántica.
+
+· Diseño estético de la página (colores, bloques, secciones, tipografía, imágenes)
+Haces un buen uso del contenedor de Bootstrap, pero pudiste darle una mejor estética a la página. Tienes un margen que te descuadra un poco la presentación con las pantallas pequeñas. 
+
+· Navegación consistente
+La navegación es consistente con los diferentes tipos de pantallas y uno puede entender el flujo.
+
+· Reglas en css correctamente nombradas
+Sí, buen uso de los diferentes tipos de selectores.

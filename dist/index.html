@@ -83,21 +83,24 @@
             <h3>University</h3>
             <ul>
               <li>Universidad de Los Andes, Bogotá DC, 2013-Actualidad</li>
-              <ul>
-                <li>
-                  Back when i first started, I got into the Industrial
-                  Engineering major.
-                </li>
-                <li>
-                  For a period inbetween I took a voluntary leave for a year and
-                  a half because of my father's job, in which I lived abroad.
-                </li>
-                <li>
-                  Soon after I came back in 2016, I realized that what I really
-                  wanted to study was the Computer and Systems Engineering major
-                  an so, I requested the transference.
-                </li>
-              </ul>
+              <!--El validador sugiere que un ul no sea hijo de otro, lo pongo entre un <li></li>-->
+              <li>
+                <ul>
+                  <li>
+                    Back when i first started, I got into the Industrial
+                    Engineering major.
+                  </li>
+                  <li>
+                    For a period inbetween I took a voluntary leave for a year and
+                    a half because of my father's job, in which I lived abroad.
+                  </li>
+                  <li>
+                    Soon after I came back in 2016, I realized that what I really
+                    wanted to study was the Computer and Systems Engineering major
+                    an so, I requested the transference.
+                  </li>
+                </ul>
+              </li>              
             </ul>
           </div>
         </div>
@@ -111,12 +114,11 @@
         <div class="row">
           <div class="col">
             <h3>Favourite video</h3>
-
+            <!--el atributo frameborder lo considera obsoleto-->
             <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/iqcjpwAHsTQ"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
